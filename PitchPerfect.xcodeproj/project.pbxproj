@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		019A35C3244F1014008F97B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019A35C2244F1014008F97B0 /* AppDelegate.swift */; };
 		019A35C5244F1014008F97B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019A35C4244F1014008F97B0 /* SceneDelegate.swift */; };
-		019A35C7244F1014008F97B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019A35C6244F1014008F97B0 /* ContentView.swift */; };
+		019A35C7244F1014008F97B0 /* RecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019A35C6244F1014008F97B0 /* RecorderView.swift */; };
 		019A35C9244F1016008F97B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019A35C8244F1016008F97B0 /* Assets.xcassets */; };
 		019A35CC244F1016008F97B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019A35CB244F1016008F97B0 /* Preview Assets.xcassets */; };
 		019A35CF244F1016008F97B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019A35CD244F1016008F97B0 /* LaunchScreen.storyboard */; };
+		019A35D7244F107F008F97B0 /* AVRecorderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019A35D6244F107F008F97B0 /* AVRecorderController.swift */; };
+		019A35D9244F10B9008F97B0 /* PlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019A35D8244F10B9008F97B0 /* PlaybackView.swift */; };
+		019A35DB244F10E2008F97B0 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019A35DA244F10E2008F97B0 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		019A35BF244F1014008F97B0 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		019A35C2244F1014008F97B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		019A35C4244F1014008F97B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		019A35C6244F1014008F97B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		019A35C6244F1014008F97B0 /* RecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderView.swift; sourceTree = "<group>"; };
 		019A35C8244F1016008F97B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		019A35CB244F1016008F97B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		019A35CE244F1016008F97B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		019A35D0244F1016008F97B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019A35D6244F107F008F97B0 /* AVRecorderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRecorderController.swift; sourceTree = "<group>"; };
+		019A35D8244F10B9008F97B0 /* PlaybackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackView.swift; sourceTree = "<group>"; };
+		019A35DA244F10E2008F97B0 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				019A35C2244F1014008F97B0 /* AppDelegate.swift */,
 				019A35C4244F1014008F97B0 /* SceneDelegate.swift */,
-				019A35C6244F1014008F97B0 /* ContentView.swift */,
+				019A35C6244F1014008F97B0 /* RecorderView.swift */,
+				019A35D8244F10B9008F97B0 /* PlaybackView.swift */,
+				019A35DA244F10E2008F97B0 /* CircleButton.swift */,
+				019A35D6244F107F008F97B0 /* AVRecorderController.swift */,
 				019A35C8244F1016008F97B0 /* Assets.xcassets */,
 				019A35CD244F1016008F97B0 /* LaunchScreen.storyboard */,
 				019A35D0244F1016008F97B0 /* Info.plist */,
@@ -148,7 +157,10 @@
 			files = (
 				019A35C3244F1014008F97B0 /* AppDelegate.swift in Sources */,
 				019A35C5244F1014008F97B0 /* SceneDelegate.swift in Sources */,
-				019A35C7244F1014008F97B0 /* ContentView.swift in Sources */,
+				019A35D7244F107F008F97B0 /* AVRecorderController.swift in Sources */,
+				019A35DB244F10E2008F97B0 /* CircleButton.swift in Sources */,
+				019A35D9244F10B9008F97B0 /* PlaybackView.swift in Sources */,
+				019A35C7244F1014008F97B0 /* RecorderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
